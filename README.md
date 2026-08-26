@@ -108,3 +108,5 @@ Este proyecto forma parte de mi portafolio de desarrollo y tiene como objetivo d
 ---
 
 ⭐ Si este proyecto te parece interesante, puedes visitar mi perfil de GitHub para conocer otros proyectos.
+<img width="955" height="496" alt="Captura de pantalla 2026-08-26 120439" src="https://github.com/user-attachments/assets/44ad71a3-936f-4484-8f6c-f0dd87c6aa64" />
+
