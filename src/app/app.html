@@ -1,0 +1,107 @@
+<div class="container">
+
+  <h1>🏠 Sistema Domótico</h1>
+
+  <div class="card">
+
+    <h2>💡 Luz</h2>
+
+    <button (click)="toggleLuz()">
+
+      {{ luz ? 'Apagar' : 'Encender' }}
+
+    </button>
+
+    <p>
+      Estado:
+      {{ luz ? 'Encendida' : 'Apagada' }}
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>🚨 Alarma</h2>
+
+    <button (click)="toggleAlarma()">
+
+      {{ alarma ? 'Desactivar' : 'Activar' }}
+
+    </button>
+
+    <p>
+      Estado:
+      {{ alarma ? 'Activa' : 'Inactiva' }}
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>🚪 Puerta</h2>
+
+    <button (click)="togglePuerta()">
+
+      {{ puerta }}
+
+    </button>
+
+    <p>
+      Estado:
+      {{ puerta }}
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>❄️ Aire Acondicionado</h2>
+
+    <input
+
+      type="range"
+
+      min="16"
+
+      max="30"
+
+      [(ngModel)]="temperatura"
+
+      (change)="actualizar()"
+
+    >
+
+    <p>
+      Temperatura:
+      {{ temperatura }} °C
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h2>📍 Geolocalización</h2>
+
+    <button (click)="iniciarSeguimiento()">
+      Iniciar
+    </button>
+
+    <button (click)="detenerSeguimiento()">
+      Detener
+    </button>
+
+    <hr>
+
+    <p>
+      Latitud:
+      {{ latitud }}
+    </p>
+
+    <p>
+      Longitud:
+      {{ longitud }}
+    </p>
+
+  </div>
+
+</div>
