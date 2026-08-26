@@ -1,59 +1,110 @@
-# Domotica
+# 🏠 Proyecto Domótica con Firebase
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+Aplicación web de **domótica** desarrollada con **Angular** y **Firebase**, diseñada para monitorear y controlar dispositivos inteligentes desde una interfaz web.
 
-## Development server
+Este proyecto fue desarrollado como práctica para fortalecer conocimientos en desarrollo frontend, integración con servicios en la nube y manejo de datos en tiempo real.
 
-To start a local development server, run:
+## 🚀 Tecnologías utilizadas
+
+* **Angular 21**
+* **TypeScript**
+* **HTML5**
+* **CSS3**
+* **Firebase**
+* **Git & GitHub**
+
+## ⚙️ Funcionalidades
+
+* 🏠 Interfaz web para gestionar dispositivos de un hogar inteligente.
+* 💡 Control y visualización del estado de dispositivos.
+* 🔥 Integración con Firebase.
+* ⚡ Actualización de información en tiempo real.
+* 📱 Interfaz adaptable para diferentes tamaños de pantalla.
+
+## 📂 Estructura del proyecto
+
+```text
+domotica/
+├── public/
+├── src/
+│   └── app/
+│       ├── services/
+│       │   └── domotica.ts
+│       ├── app.ts
+│       ├── app.html
+│       ├── app.css
+│       └── app.routes.ts
+├── angular.json
+├── package.json
+└── README.md
+```
+
+## 🛠️ Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/estebandavidfori-gif/Proyecto_Domotica_Firebase.git
+```
+
+Entra en la carpeta:
+
+```bash
+cd Proyecto_Domotica_Firebase
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Inicia el servidor de desarrollo:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abre el navegador en:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🏗️ Compilar el proyecto
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para generar una versión de producción:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Los archivos compilados se generarán en la carpeta `dist/`.
 
-## Running unit tests
+## 🧪 Pruebas
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Para ejecutar las pruebas:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## 👨‍💻 Autor
 
-For end-to-end (e2e) testing, run:
+**Esteban David Fori Zapata**
 
-```bash
-ng e2e
-```
+Desarrollador de software en formación, interesado en el desarrollo web, programación y creación de soluciones tecnológicas.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 📌 Objetivo del proyecto
 
-## Additional Resources
+Este proyecto forma parte de mi portafolio de desarrollo y tiene como objetivo demostrar conocimientos en:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* Desarrollo de aplicaciones web con Angular.
+* TypeScript.
+* Integración con Firebase.
+* Servicios y arquitectura frontend.
+* Control de versiones con Git y GitHub.
+
+---
+
+⭐ Si este proyecto te parece interesante, puedes visitar mi perfil de GitHub para conocer otros proyectos.
